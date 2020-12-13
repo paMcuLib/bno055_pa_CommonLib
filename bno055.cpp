@@ -1,8 +1,5 @@
-extern "C"
-{
 #include "bno055.h"
 #include "pa_CommonLib/src/drv/pa_CommonDrv/pa_CommonDrv.h"
-}
 
 #define pa_BNO055_chosenAddress (0x29)
 void pa_BNO055_writeIIC(uint8_t add, uint8_t reg, uint8_t data)
